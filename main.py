@@ -40,9 +40,11 @@ import streamlit as st
 
 
 # Page title
-st.set_page_config(page_title='Analisis de datos del CENAGEN', page_icon='📊',
+st.set_page_config(page_title='CEI', page_icon='📊',
                    layout="wide", # Forma de layout ancho o compacto
                     initial_sidebar_state="expanded" # Definimos si el sidebar aparece expandido o colapsado
                    )
-st.title('📊 Analisis de datos del IGeHM')
+st.title('📊 Comite de Etica Provincial: Documentos')
+
+
 
