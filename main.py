@@ -48,7 +48,7 @@ st.title('📊 Comite de Etica Provincial: Documentos')
 
 
 
-st.header("Directores e Investigadores")
+st.header("👨🏻‍🔬 Directores e Investigadores")
 
 mensaje = """
 El Circuito de presentación de Planes de Trabajos de Investigación en los que participan personas humanas se ha modificado debido a la incorporación al sistema de una Herramienta online para la presentación, seguimiento y evaluación de los mismos denominada AiSalud_PLatform.
@@ -61,7 +61,7 @@ Por otra parte, debido a la versatilidad de la misma, recomendamos que soliciten
 st.markdown(mensaje)
 
 
-st.header("Normativa y Documentacion")
+st.header("📝 Normativa y Documentacion")
 
 with st.expander("1- Resolución 1480/11"):
     st.write("[Enlace a la resolución](https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-1480-2011-187206)")
