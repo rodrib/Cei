@@ -109,3 +109,47 @@ with st.expander("7- Guía de orientación para la elaboración de un proyecto d
     st.write("""
     Herramienta que facilita la escritura del plan de trabajo del proyecto de investigación.
     """)
+
+# Modelo de Consentimiento informado
+with st.expander("8- Modelo de Consentimiento informado"):
+    st.write("""
+    (Disposición Conjunta CEIP 001 y COBI 002 de los Comités Provinciales de Ética en Investigación y de Bioética en Salud Humana sobre Recomendaciones sobre Consentimiento Informado)
+    """)
+
+# Curriculum vitae
+with st.expander("9- Curriculum vitae"):
+    st.write("""
+    (Este documento es esencial para presentar la trayectoria académica y profesional de los investigadores, destacando sus logros, publicaciones y experiencias relevantes en el ámbito de la investigación.)
+    """)
+
+# Disposición 6677/10 de ANMAT (mismo hipervínculo que en el punto 2)
+with st.expander("10- Disposición 6677/10 de ANMAT"):
+    st.write("[Enlace a la disposición](https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-6677-2010-174557)")
+    st.write("""
+    APRUEBASE EL REGIMEN DE BUENA PRACTICA CLINICA PARA ESTUDIOS DE FARMACOLOGIA CLINICA. DEROGANSE LAS DISPOSICIONES A.N.M.A.T. NROS. 5330/97, 3436/98, 3112/00, 690/05, 1067/08 Y 6550/08.
+    """)
+
+# Disposición 6431/2022
+with st.expander("11- Disposición 6431/2022"):
+    st.write("[Enlace a la disposición](https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-6431-2022-369725/texto)")
+    st.write("""
+    Guía para la autorización sanitaria de productos vegetales a base de cannabis y sus derivados destinados al uso y aplicación en la medicina humana, según Resolución MS N° 781/22.
+    """)
+
+# Resolución Ministerial 2262/22
+with st.expander("12- Resolución Ministerial 2262/22"):
+    st.write("""
+    Circuito para la presentación formal de propuestas de investigaciones con población originaria en las temáticas de la Salud en la provincia de Misiones.
+    """)
+
+# Resolución Ministerial 803/24
+with st.expander("13- Resolución Ministerial 803/24"):
+    st.write("""
+    Herramienta de presentación, evaluación y seguimiento de Planes de Trabajos de Investigaciones en las que participan personas Humanas en Misiones.
+    """)
+
+# Formulario de Informe de Planes de Trabajo de Proyectos de Investigación
+with st.expander("14- Formulario de Informe de Planes de Trabajo de Proyectos de Investigación"):
+    st.write("""
+    Este formulario es esencial para recopilar y presentar la información relacionada con los planes de trabajo de los proyectos de investigación, asegurando que se cumplan los estándares requeridos y se facilite la evaluación del avance y resultados obtenidos.
+    """)
