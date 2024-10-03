@@ -77,3 +77,35 @@ with st.expander("2- Disposición 6677/10 de ANMAT"):
     APRUEBASE EL REGIMEN DE BUENA PRACTICA CLINICA PARA ESTUDIOS DE FARMACOLOGIA CLINICA. DEROGANSE LAS DISPOSICIONES A.N.M.A.T. NROS. 5330/97, 3436/98, 3112/00, 690/05, 1067/08 Y 6550/08.
     """)
 
+# Ley Nacional de Protección de Datos 25.326
+with st.expander("3- Ley Nacional de protección de datos Número 25.326"):
+    st.write("[Enlace a la ley](https://www2.hcdn.gob.ar/export/hcdn/secparl/dgral_info_parlamentaria/dip/archivos/Ley_25326.pdf)")
+    st.write("""
+    La Ley 25.326 busca proteger integralmente los datos personales, garantizando su manejo seguro y confidencial. Reconoce derechos de los titulares sobre sus datos, como acceso y rectificación. Establece un órgano de control, la Agencia de Acceso a la Información Pública, para supervisar el cumplimiento de la ley. También prevé sanciones por infracciones y promueve códigos de conducta para su correcta aplicación. En conjunto, estos objetivos aseguran la privacidad y seguridad de los datos personales en Argentina.
+    """)
+
+
+# Decreto Provincial 1612
+with st.expander("4- Decreto Provincial 1612 de agosto de 2016"):
+    st.write("[Enlace al decreto](https://salud.misiones.gob.ar/wp-content/uploads/2017/12/Boletin-Decreto-1612.pdf)")
+    st.write("""
+    Por el que se reglamenta la Ley de creación del Instituto de Genética Humana, el Banco Provincial de ADN Humano, el Banco de Datos Genéticos y el Registro Único de Personas con Enfermedad Congénita.
+    """)
+
+# Formulario 1 de Aval Institucional
+with st.expander("5- Formulario 1 de Aval Institucional"):
+    st.write("""
+    El Aval Institucional es fundamental para asegurar que los proyectos de investigación se desarrollen bajo estándares éticos y científicos establecidos por la institución. Es una garantía de que los recursos institucionales están disponibles para el equipo de investigación y que la propuesta cuenta con respaldo oficial. Además, asegura que las investigaciones estén alineadas con los objetivos estratégicos de la institución, promoviendo su reconocimiento y fomentando el desarrollo académico y científico de la misma.
+    """)
+
+# Formulario 1 de Aval Institucional
+with st.expander("6- FORMULARIO 2 Plan Proyectos AiSalud"):
+    st.write("""
+    Se subirá pronto.
+    """)
+
+# Guía de orientación para la elaboración de un proyecto de investigación
+with st.expander("7- Guía de orientación para la elaboración de un proyecto de investigación"):
+    st.write("""
+    Herramienta que facilita la escritura del plan de trabajo del proyecto de investigación.
+    """)
