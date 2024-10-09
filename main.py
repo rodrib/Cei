@@ -3,16 +3,12 @@ import streamlit as st
 
 # --- PAGE SETUP ---
 about_page = st.Page(
-    "views/about_me.py",
-    title="About Me",
+    "views/sobre_nosotros.py",
+    title="Sobre Nosotros",
     icon=":material/account_circle:",
     default=True,
 )
-project_1_page = st.Page(
-    "views/sales_dashboard.py",
-    title="Sales Dashboard",
-    icon=":material/bar_chart:",
-)
+
 
 project_2_page = st.Page(
     "views/Documentos.py",
@@ -20,6 +16,11 @@ project_2_page = st.Page(
     icon=":material/smart_toy:",
 )
 
+project_3_page = st.Page(
+    "views/Estadisticas.py",
+    title="Estadisticas de las Investigaciones",
+    icon=":material/bar_chart:",
+)
 
 
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
@@ -29,7 +30,7 @@ project_2_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [project_1_page, project_2_page],
+        "Projects": [ project_2_page, project_3_page],
     }
 )
 
