@@ -14,7 +14,7 @@ with col1:
     st.image("./assets/comite-etica-logo.png", width=230)
 
 with col2:
-    st.title("Comite de Etica Provincial", anchor=False)
+    st.title("Comite de Etica en Investigacion Provincial", anchor=False)
     st.write(
         "Promover, jerarquizar y regular la investigación para la salud como herramienta que aporte criterios de efectividad para la toma de decisiones en las políticas sanitarias de la Provincia."
     )
