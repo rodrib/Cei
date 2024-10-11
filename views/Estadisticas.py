@@ -85,3 +85,33 @@ with card_container(key="chart5"):
             "color": {"field": "Politica", "type": "nominal", "title": "Politica"}
         },
     }, use_container_width=True)
+
+
+## nube de palabras
+
+import streamlit as st
+import streamlit_shadcn_ui as ui
+
+value = ui.tabs(options=['2019','2020','2021','2022','2023','2024'], default_value='2019', key="kanaries")
+
+with ui.card(key="image"):
+    if value == "2019":
+        st.image("nube2019.png", caption="PyGWalker", use_column_width=True)
+        ui.element("link_button", text=value + " Github",className="mt-2", key="btn2")
+    elif value == "2024":
+        st.image("nube2024.png", caption="PyGWalker", use_column_width=True)
+        #ui.element("img", src="https://pub-8e7aa5bf51e049199c78b4bc744533f8.r2.dev/graphic-walker-banner.png", className="w-full")
+        ui.element("link_button", text=value + " Github", url="https://github.com/Kanaries/graphic-walker", className="mt-2", key="btn2")
+    elif value == '2020':
+        st.image("nube2020.png",caption="PyGWalker", use_column_width=True )
+        ui.element("link_button", text=value + " Github", url="https://github.com/Kanaries/pygwalker", className="mt-2", key="btn2")
+    elif value == '2021':
+        st.image("nube2021.png",caption="PyGWalker", use_column_width=True )
+        ui.element("link_button", text=value + " Github", url="https://github.com/Kanaries/pygwalker", className="mt-2", key="btn2")
+    elif value == '2022':
+        st.image("nube2022.png",caption="PyGWalker", use_column_width=True )
+        ui.element("link_button", text=value + " Github", url="https://github.com/Kanaries/pygwalker", className="mt-2", key="btn2")
+    elif value == '2023':
+        st.image("nube2023.png",caption="PyGWalker", use_column_width=True )
+        ui.element("link_button", text=value + " Github", url="https://github.com/Kanaries/pygwalker", className="mt-2", key="btn2")
+
