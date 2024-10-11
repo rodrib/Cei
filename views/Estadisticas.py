@@ -62,3 +62,26 @@ with card_container(key="chart2"):
             'y': {'field': 'Cantidad', 'type': 'quantitative', 'axis': {'title': 'Cantidad', 'grid': False}},
         },
     }, use_container_width=True)
+
+
+
+# Calcular la cantidad para cada combinación única de 'Año' y 'Politica'
+cantidad_por_ano_politica = df.groupby(['Año', 'Politica']).size().reset_index(name='Cantidad')
+
+# Ordenar los datos por 'Año' y 'Cantidad'
+cantidad_por_ano_politica = cantidad_por_ano_politica.sort_values(by=['Año', 'Cantidad'], ascending=[True, False])
+
+# Obtener los años únicos
+anos_unicos = cantidad_por_ano_politica['Año'].unique().tolist()
+
+# Mostrar el gráfico de barras agrupadas
+st.subheader("Temas Prioritarios")
+with card_container(key="chart5"):
+    st.vega_lite_chart(cantidad_por_ano_politica, {
+        "mark": "bar",
+        "encoding": {
+            "x": {"field": "Año", "type": "ordinal", "title": "Año"},
+            "y": {"field": "Cantidad", "type": "quantitative", "title": "Cantidad"},
+            "color": {"field": "Politica", "type": "nominal", "title": "Politica"}
+        },
+    }, use_container_width=True)
