@@ -46,8 +46,8 @@ st.write(
     """
     - Rodrigo Bogado (Rfeb)
     - Marcelo Gamarra (Chelo)
-    - Cristina Martin (Cris)
-    - Gaston Sioli (Gas)
-    - Donovan Rivero (Dono)
+    - Cristina Martin 
+    - Gaston Sioli 
+    - Donovan Rivero 
     """
 )
