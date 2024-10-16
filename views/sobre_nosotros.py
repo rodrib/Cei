@@ -5,7 +5,7 @@ from forms.contact import contact_form
 
 @st.experimental_dialog("Contact Me")
 def show_contact_form():
-     contact_form()
+    contact_form()
 
 
 # --- HERO SECTION ---
@@ -19,7 +19,7 @@ with col2:
         "Promover, jerarquizar y regular la investigación para la salud como herramienta que aporte criterios de efectividad para la toma de decisiones en las políticas sanitarias de la Provincia."
     )
     if st.button("✉️ Contact Me"):
-        pass#show_contact_form()
+        show_contact_form()
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
